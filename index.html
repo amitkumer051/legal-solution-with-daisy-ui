@@ -20,8 +20,46 @@
             font-family: 'Poppins', sans-serif;
         }
     </style>
+    <!-- colors -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                primary: '#B68C5A',
+              }
+            }
+          }
+        }
+      </script>
 </head>
 <body>
-    
+    <header>
+        <nav class="container mx-auto mt-4">
+            <div class="navbar ">
+                <div class="navbar-start">              
+                        <img class="w-auto" src="images/logo2.png" alt="">
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1 text-[#707070]">
+                    <li><a>Home</a></li>
+                      <li><a>Services</a></li>
+                      <li><a>Cases</a></li>
+                      <li><a>Blog</a></li>
+                      <li><a>Contact Us</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                  <a class="btn bg-[#B68C5A] text-white">Free Consultation</a>
+                </div>
+              </div>
+        </nav>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
