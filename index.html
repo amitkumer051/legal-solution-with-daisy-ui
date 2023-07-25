@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=EB+Garamond:wght@400;800&family=Manrope:wght@400;500;600;700;800&family=Poppins&display=swap" rel="stylesheet">
+    <!-- font-awesome -->
+    <script src="https://kit.fontawesome.com/22585d9c0c.js" crossorigin="anonymous"></script>
     <!-- font style -->
     <style>
         .eb-garamond{
@@ -35,18 +37,19 @@
 </head>
 <body>
     <header>
-        <nav class="container mx-auto mt-4">
+        <!-- navbar section -->
+        <nav class="container mx-auto mt-8">
             <div class="navbar ">
                 <div class="navbar-start">              
                         <img class="w-auto" src="images/logo2.png" alt="">
                 </div>
                 <div class="navbar-center hidden lg:flex">
-                  <ul class="menu menu-horizontal px-1 text-[#707070]">
-                    <li><a>Home</a></li>
-                      <li><a>Services</a></li>
-                      <li><a>Cases</a></li>
-                      <li><a>Blog</a></li>
-                      <li><a>Contact Us</a></li>
+                  <ul class="menu menu-horizontal text-[#707070]">
+                        <li><a>Home</a></li>
+                      <li><a>Services<i class="fa-solid fa-chevron-right"></i></a></li>
+                      <li><a>Cases<i class="fa-solid fa-chevron-right"></i></a></li>
+                      <li><a>Blog<i class="fa-solid fa-chevron-right"></i></a></li>
+                      <li><a>Contact Us<i class="fa-solid fa-chevron-right"></i></a></li>
                   </ul>
                 </div>
                 <div class="navbar-end">
@@ -54,9 +57,26 @@
                 </div>
               </div>
         </nav>
+
+        <!-- hero section -->
+        <section class="container mx-auto mt-10">
+            <div class="hero min-h-screen" style="background-image: url('./images/banner.png');">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-center text-neutral-content">
+                  <div class="max-w-md">
+                    <h1 class="mb-5 text-5xl font-bold text-white eb-garamond">We Provide Effective <br>Legal Solutions</h1>
+                    <p class="mb-5 text-[#E7E7E7] text-sm">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <div class="space-x-3">
+                        <input type="text" placeholder="Search your services" class="input input-bordered input-accent w-full max-w-xs" />
+                    <button class="btn bg-[#B68C5A] text-bold text-white">Search</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
     </header>
     <main>
-
+        
     </main>
     <footer>
 
